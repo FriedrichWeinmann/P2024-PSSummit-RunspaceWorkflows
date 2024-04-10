@@ -54,7 +54,9 @@ $results = $job2.Collect()
 $results
 
 #region Interrupt with variable input count
-
+$int = 0
+$int++
+$int
 #region C# Incrementer Code
 $source = @'
 using System;
